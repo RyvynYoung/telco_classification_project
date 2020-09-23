@@ -2,6 +2,9 @@
 Ryvyn Young 09/23/2020
 
 # Instructions for Replication
+Files are located in Git Repo [here](https://github.com/RyvynYoung/telco_classification_project)
+User will need env.py file with access to Codeup database
+acquire.py and prepare.py files need to be run in order they occur in notebook 
 
 # Key Findings
 Exploritory analysis has not yet revealed any clear drivers or answers at this time.
@@ -12,9 +15,7 @@ Continue exploration, in particular a deeper dive into Fiber Optic as well as pa
 Test a models with reduced features, particularly eliminating total charges and years tenure  
 
 # Data Dictionary
-| Field Name |	Data in field |	Data Type |
-------------------------------------------
-payment_type_id	| numeric, method of payment, 1=Electronic Check, 2=Mailed Check, 3=Bank Transfer, 4=Credit Card |	category
+https://github.com/RyvynYoung/telco_classification_project/blob/master/data_dictionary.md
 
 ## Planning Stage
 Project Description: Why are our customers churning?
@@ -35,27 +36,16 @@ Setting: Virtual 5 minute walk through of Documented Jupyter Notebook
 Brainstorm: key highlights, key visualizations, prototype
 
 ## Acquire Stage
-DELIVERABLES: .py file for data acquisition and notes for replicating results (note access to Codeup SQL data files is required)
+DELIVERABLES: acquire.py file for data acquisition and notes for replicating results (note access to Codeup SQL data files is required)
 
 ## Preparation Stage
-DELIVERABLES: .py file for data preparation and notes for replication
+DELIVERABLES: prepare.py file for data preparation and notes for replication
 
 ## Exploration and Pre-Processing Stage
-DELIVERABLES: You are required to run at least 2 statistical tests in your data exploration. Document your hypotheses and set your alpha before running the tests and document your findings well. Summarize your conclusions, provide clear answers to the specific questions, and summarize any takeaways/action plan.
+DELIVERABLES: You are required to run at least 2 statistical tests in your data exploration. 
 
 ## Modeling Stage
-DELIVERABLES: You are required to establish a baseline accuracy to determine if having a model is better than no model and train and compare at least 3 different models. Document these steps well.
+DELIVERABLES: You are required to establish a baseline accuracy to determine if having a model is better than no model and train and compare at least 3 different models.
 
 ## Delivery Stage
 DELIVERABLES: Summarize your findings. Key takeaways and next steps should be documented here.
-Nice to have - impact of recommended next steps
-
-Refine:
-Remove unnecessary columns, charts, etc.
-
-Present:
-
-
-
-
-# Key Findings and Takeaways
