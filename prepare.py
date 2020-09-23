@@ -49,7 +49,7 @@ def prep_telco(df):
     
     # not working need to debug
     # drop unnecessary columns
-    df = df.drop(columns=['customer_id', 'churn', 'multiple_lines', 'online_security', 'online_backup', 'device_protection',
+    df = df.drop(columns=['churn', 'multiple_lines', 'online_security', 'online_backup', 'device_protection',
                             'paperless_billing', 'streaming_movies', 'streaming_tv', 'tech_support',
                             'phone_service', 'dependents', 'partner', 'gender', 'contract_type', 'payment_type', 'internet_service_type'])
 
